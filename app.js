@@ -17,11 +17,13 @@ const labels = [
   "2020",
 ];
 
+let datas = [211, 326, 165, 350, 420, 370, 500, 375, 415]
+
 const data = {
   labels,
   datasets: [
     {
-      data: [211, 326, 165, 350, 420, 370, 500, 375, 415],
+      data: datas,
       label: "Minecraft Sales",
       fill: true,
       backgroundColor: gradient,
